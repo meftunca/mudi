@@ -15,6 +15,7 @@ function LangInputs({ lang }: { lang: string }) {
   }, [languageFileContents, lang, pathWithDot]);
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
+    //@ts-ignore
     setLanguageFileContents((before:Record<string,any>)=>{
       const newVal = immutable.wrap(before).set( lang+"."+pathWithDot, value).value();
       // console.log(immutable.get(newVal, lang+"."+workingOnPath));
@@ -51,7 +52,7 @@ const LocalizationEditor = () => {
       </Typography>
       <Grid container spacing={4} ref={parentRef}>
         {supportedLanguages.map((lang, index) => (
-          <LangInputs key={index+workingOnPath} lang={lang}></LangInputs>
+          <LangInputs key={index} lang={lang}></LangInputs>
         ))}
       </Grid>
     </Paper>

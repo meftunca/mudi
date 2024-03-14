@@ -169,10 +169,10 @@ export default function LocalizationTreeSidebar() {
         aria-label="icon expansion"
         defaultCollapseIcon={<ExpandMoreIcon />}
         defaultExpandIcon={<ChevronRightIcon />}
-        selected={workingOnPath.join(".")}
+        selected={workingOnPath}
         sx={{ position: 'relative' }}
         onNodeSelect={(e,values)=>{
-          console.log(values.split("."));
+          // @ts-ignore
           setWorkingOnPath(values.split("."));
         }}
       >

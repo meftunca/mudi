@@ -44,7 +44,7 @@ const LocalizationServices = () => {
   const {setLanguageFileContents,setLanguageList,setListOfAllKeys} = useLocalizationStore();
   React.useEffect(() => {
     const unlisten = listenFiles();
-    return async () => {
+    return   () => {
       unlisten.then((unlisten) => null).catch((err) => console.error(err));
     };
   }, []);
