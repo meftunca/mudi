@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import { TreeView } from '@mui/x-tree-view/TreeView';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import {
   TreeItem,
   TreeItemProps,
@@ -167,8 +167,12 @@ export default function LocalizationTreeSidebar() {
     <Box sx={{display:"block", height:"100vh",overflowY:"overlay", minWidth: 300,bgcolor:"background.paper" }}>
       <TreeView
         aria-label="icon expansion"
-        defaultCollapseIcon={<ExpandMoreIcon />}
-        defaultExpandIcon={<ChevronRightIcon />}
+        defaultCollapseIcon={<span className="material-icons-outlined">
+        expand_less
+        </span>}
+        defaultExpandIcon={<span className="material-icons-outlined">
+        expand_more
+        </span>}
         selected={workingOnPath}
         sx={{ position: 'relative' }}
         onNodeSelect={(e,values)=>{

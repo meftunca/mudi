@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "mudi",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -40,7 +40,8 @@
         "removeDir": true,
         "removeFile": true,
         "renameFile": true,
-        "exists": true
+        "exists": true,
+        "scope": ["**","**/.*", "$APP", "$APP/**", "$CACHE", "$CACHE/**", "$CONFIG", "$CONFIG/**", "$LOG", "$LOG/**", "$HOME/**"]
       },  
       "globalShortcut": {
         "all": true 

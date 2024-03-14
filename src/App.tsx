@@ -22,11 +22,11 @@ function App() {
         variant="contained"
         color="primary"
         onClick={async () => {
-          if(!(await exists('localization', { dir: BaseDirectory.Document }))){
-          await createDir('localization', { dir: BaseDirectory.Document });
+          if(!(await exists('mudi/localization', { dir: BaseDirectory.Document }))){
+          await createDir('mudi/localization', { dir: BaseDirectory.Document,recursive:true });
           }
           Object.entries(languageFileContents).forEach(async ([lang, _]) => {
-            writeTextFile('localization/'+lang + '.json', JSON.stringify(languageFileContents[lang], null, 2),{
+            writeTextFile('mudi/localization/'+lang + '.json', JSON.stringify(languageFileContents[lang], null, 2),{
               dir:BaseDirectory.Document ,
               append:true
             });
