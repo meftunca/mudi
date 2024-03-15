@@ -1,3 +1,6 @@
+<img src="[markdownmonstericon.png](https://github.com/meftunca/mudi/blob/main/mudi.png?raw=true)"
+     alt="mudi"
+     style="float: left; margin-right: 10px;" />
 # Mudi the naughty dog
 
 ## Purpose of the project 
