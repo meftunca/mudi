@@ -6,9 +6,9 @@ What software developers generally need is a combination of tools under a single
 I am developing with project architecture tauri, vite and react and those who want to support can send pr.
 
 ## Todo List
-[*] Localization Editor
-[ ] App Icon Generator (android, ios and web)
-[ ] File Converter for image,office apss and video format
+- [x] Localization Editor
+- [ ] App Icon Generator (android, ios and web)
+- [ ] File Converter for image,office apss and video format
 
 
 ## Techs
