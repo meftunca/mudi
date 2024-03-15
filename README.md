@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Mudi the naughty dog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose of the project 
 
-Currently, two official plugins are available:
+What software developers generally need is a combination of tools under a single hood. 
+I am developing with project architecture tauri, vite and react and those who want to support can send pr.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Todo List
+[*] Localization Editor
+[ ] App Icon Generator (android, ios and web)
+[ ] File Converter for image,office apss and video format
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Techs
+- Tauri V1
+- Vite V5
+- React V18
+- @Mui V5
+- wasm
+  - ffmpeg
