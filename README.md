@@ -1,5 +1,5 @@
 # Mudi the naughty dog
-
+![screenshot](./mudi.png)
 ## Purpose of the project 
 
 What software developers generally need is a combination of tools under a single hood. 
