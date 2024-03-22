@@ -16,8 +16,8 @@ import { db } from "./db";
 
 // ----------------------------------------------------------------------
 const aiInstance = axios.create({
-  baseURL: "https://api-inference.huggingface.co/models/codellama/CodeLlama-7b-Instruct-hf",
-  // baseURL: "https://api-inference.huggingface.co/models/google/gemma-7b-it",
+  // baseURL: "https://api-inference.huggingface.co/models/codellama/CodeLlama-7b-Instruct-hf",
+  baseURL: "https://api-inference.huggingface.co/models/google/gemma-7b-it",
   headers: {
     Authorization: "Bearer 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",
   },
