@@ -16,7 +16,8 @@ import { db } from "./db";
 
 // ----------------------------------------------------------------------
 const aiInstance = axios.create({
-  baseURL: "https://api-inference.huggingface.co/models/google/gemma-7b-it",
+  baseURL: "https://api-inference.huggingface.co/models/codellama/CodeLlama-7b-Instruct-hf",
+  // baseURL: "https://api-inference.huggingface.co/models/google/gemma-7b-it",
   headers: {
     Authorization: "Bearer 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",
   },
@@ -94,51 +95,105 @@ export function useGetConversation(conversationId: string) {
 }
 
 // ----------------------------------------------------------------------
-
+const AIDefaultData = {
+  parameters: {
+    return_full_text: true,
+    max_new_tokens: 6000,
+    min_length: 100,
+    max_length: 5000,
+    top_k: 1000,
+    top_p: 0.99,
+    temperature: 0.01,
+    stop: ["\n"],
+    presence_penalty: 0.0,
+    frequency_penalty: 0.0,
+    nucleus_sampling: false,
+    best_of: 1,
+    logprobs: null,
+    eos_token: null,
+    pad_token: null,
+    unk_token: null,
+  },
+  stream: false,
+  options: {
+    dont_load_model: false,
+    signal: {},
+    use_cache: true,
+    wait_for_model: true,
+  },
+};
 export async function sendMessage(
   conversationId: string,
   messageData: IChatMessage
 ) {
-  return aiInstance.post("", { inputs: messageData.body }).then((res) => {
-    // const data = { conversationId, messageData: {...messageData,content:res.data[0].generated_text} };
-    let resp = Array.isArray(res.data)
-      ? res.data[0].generated_text
-      : res.data.generated_text;
-    // localStorage.setItem(`conversation-${conversationId}`, JSON.stringify(data));
-    db.messages.bulkAdd([
-      { ...messageData,senderId:"2", conversationId },
-      {  body: resp, conversationId,senderId:"1",createdAt:new Date(),contentType:"text",attachments:[],id:Date.now().toString(32)},
-    ]);
+  await db.messages.add({
+    ...messageData,
+    senderId: "2",
+    conversationId,
+    createdAt: new Date(),
+    id: Date.now().toString(32),
   });
-
+  return await aiInstance
+    .post("", { inputs: messageData.body, ...AIDefaultData })
+    .then((res) => {
+      // const data = { conversationId, messageData: {...messageData,content:res.data[0].generated_text} };
+      let resp = Array.isArray(res.data)
+        ? res.data[0].generated_text
+        : res.data.generated_text;
+      // localStorage.setItem(`conversation-${conversationId}`, JSON.stringify(data));
+      return db.messages.add({
+        body: resp,
+        conversationId,
+        senderId: "1",
+        createdAt: new Date(),
+        contentType: "text",
+        attachments: [],
+        id: Date.now().toString(32),
+      });
+    });
 }
 
 // ----------------------------------------------------------------------
 
 export async function createConversation(conversationData: IChatConversation) {
   const conversationId = Date.now().toString(32);
-  db.conversation.add({...conversationData,id:conversationId});
-  db.messages.add(
-    { id:Date.now().toString(32), body: conversationData.messages[0].body, conversationId,senderId:"2",createdAt:new Date(),contentType:"text",attachments:[]},
-  );
-  return aiInstance.post("", { inputs: conversationData.messages[0].body }).then((res) => {
-    // const data = { conversationId, messageData: {...messageData,content:res.data[0].generated_text} };
-    let resp = Array.isArray(res.data)
-      ? res.data[0].generated_text
-      : res.data.generated_text;
-    // localStorage.setItem(`conversation-${conversationId}`, JSON.stringify(data));
-    db.messages.add(
-      { id:Date.now().toString(32), body: resp.replace(conversationData.messages[0].body,""), conversationId,senderId:"1",createdAt:new Date(),contentType:"text",attachments:[]},
-    );
-    return conversationId;
+  db.conversation.add({ ...conversationData, id: conversationId });
+  db.messages.add({
+    id: Date.now().toString(32),
+    body: conversationData.messages[0].body,
+    conversationId,
+    senderId: "2",
+    createdAt: new Date(),
+    contentType: "text",
+    attachments: [],
   });
- 
+  return aiInstance
+    .post("", { inputs: conversationData.messages[0].body, ...AIDefaultData })
+    .then((res) => {
+      // const data = { conversationId, messageData: {...messageData,content:res.data[0].generated_text} };
+      let resp = Array.isArray(res.data)
+        ? res.data[0].generated_text
+        : res.data.generated_text;
+      // localStorage.setItem(`conversation-${conversationId}`, JSON.stringify(data));
+      return db.messages
+        .add({
+          id: Date.now().toString(32),
+          body: resp.replace(conversationData.messages[0].body, ""),
+          conversationId,
+          senderId: "1",
+          createdAt: new Date(),
+          contentType: "text",
+          attachments: [],
+        })
+        .then(() => {
+          return conversationId;
+        });
+    });
 }
 
 // ----------------------------------------------------------------------
 
 export async function clickConversation(conversationId: string) {
-
-  const conversation =db.conversation.where("id").equals(conversationId)
-  db.conversation.update(conversationId,{unreadCount:0});
+  const conversation = db.conversation.where("id").equals(conversationId);
+  db.conversation.update(conversationId, { unreadCount: 0 });
 }
