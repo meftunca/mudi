@@ -6,5 +6,10 @@ export default defineConfig({
   server:{
     port:5752
   },
+  resolve:{
+    alias:{
+      "@/": "/src/"
+    }
+  },
   plugins: [react()],
 })

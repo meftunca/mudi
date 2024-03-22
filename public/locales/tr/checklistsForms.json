@@ -1,0 +1,88 @@
+{
+  "tabs": {
+    "my-stores": "Mağazalarım",
+    "my-checklists": "Checklistlerim",
+    "all-checklists": "Tüm Checklistler",
+    "all": "Hepsi",
+    "completed": "Tamamlanan",
+    "issued": "Verilen",
+    "triggered": "Tetiklenen",
+    "overtime": "Süresi Geçen",
+    "fail": "Başarısız",
+    "overview": "Genel Bakış"
+  },
+  "stats": {
+    "COMPLETED": "TAMAMLANAN",
+    "ISSUED": "VERİLEN",
+    "OVERTIME": "SÜRESİ GEÇEN",
+    "TRIGGERED": "TETİKLENEN",
+    "FAIL": "BAŞARISIZ",
+    "ARCHIVED": "ARŞİVLENEN"
+  },
+  "buttons": {
+    "add-checklist": "Checklist Ekle",
+    "create": "Oluştur",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "clear": "Temizle",
+    "remove": "Kaldır",
+    "clear-all": "Hepsini Temizle",
+    "filters": "Filtreler",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "take-ownership": "Sahiplen",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "submit-checklist": "Tamamla",
+    "only-answered": "Sadece Cevaplananlar"
+  },
+  "dialogs": {
+    "add-checklist-title": "Yeni Checklist Ekle",
+    "add-checklist-description": "Bir şablon seçin ve performerları belirleyerek yeni checklist oluşturun.",
+    "take-ownership-1": "Bu checklist hiç kimseye atanmamış!",
+    "take-ownership-2": "Bu checklist üzerinde çalışmaya başlamak için sahiplenin",
+    "take-ownership-3": "Bu, eşzamanlı girişleri önlemek içindir",
+    "remove-user-title": "Kullanıcıyı Kaldır",
+    "remove-user-description": "Bu kullanıcıyı checklistten kaldırmak istediğinizden emin misiniz?",
+    "add-manager-title": "Mağaza Yöneticisi Ekle",
+    "add-manager-description": "Checklist'e eklemek için yöneticileri seçin",
+    "add-participant-title": "Katılımcı Ekle",
+    "add-participant-description": "Checklist'e eklemek için katılımcıları seçin"
+  },
+  "tooltips": {
+    "remove": "Kaldır",
+    "add-manager": "Mağaza Yöneticisi Ekle",
+    "add-participant": "Katılımcı Ekle",
+    "copy-contact": "İletişim Bilgisini Kopyala",
+    "contact-copied": "Kopyalandı!"
+  },
+  "labels": {
+    "select-checklist-template": "Checklist Şablonu Seçin",
+    "select-performers": "Performer Seçin",
+    "select-manager": "Yönetici Seçin",
+    "select-participant": "Katılımcı Seçin",
+    "select-area": "Alan Seçin",
+    "select-store": "Mağaza Seçin",
+    "results-found": "Bulunan Sonuçlar",
+    "store": "Mağaza",
+    "area": "Alan",
+    "template": "Şablon",
+    "created": "Oluşturuldu",
+    "status": "Durum",
+    "completed": "Tamamlandı",
+    "checklist-score": "Checklist Puanı",
+    "section-score": "Bölüm Puanı",
+    "required-questions": "Zorunlu Sorular",
+    "required-star": "* Zorunlu",
+    "not-answered": "Cevaplanmadı"
+  },
+  "titles": {
+    "overview": "Genel Bakış",
+    "created": "Oluşturuldu",
+    "completed": "Tamamlandı",
+    "store-card": "Mağaza",
+    "participants": "Katılımcılar",
+    "relevant-managers": "Mağaza Yöneticileri"
+  }
+}

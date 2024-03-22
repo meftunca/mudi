@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Installation",
+          "content": "Contenu",
+          "attachments": "Pièces jointes",
+          "readers": "lecteurs",
+          "banners": "Bannières"
+        }
+      },
+      "labels": {
+        "title": "Titre",
+        "name": "Nom",
+        "description": "Description",
+        "publishDate": "Date de publication",
+        "parentCategory": "Catégorie Parentale",
+        "category": "Catégorie",
+        "expireDate": "Date d'expiration",
+        "tags": "Mots clés",
+        "country": "Pays",
+        "language": "Langue",
+        "selectLanguage": "Veuillez sélectionner une langue",
+        "privacyType": "Type de confidentialité",
+        "contentType": "Type de contenu",
+        "draftMode": "Mode brouillon",
+        "redirect": "URL de redirection",
+        "selectImage": "Sélectionnez une image"
+      },
+      "sectionTitles": {
+        "settings": "Paramètres",
+        "dateChecks": "Vérification des dates de publication",
+        "bannerList": "Liste des bannières",
+        "sortBanner": "Bannière de tri (à venir)",
+        "upload": "Télécharger une nouvelle ressource",
+        "createCategory": "Créer une nouvelle catégorie",
+        "updateCategory": "Mettre à jour la catégorie"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Publique",
+          "PRIVATE": "Privé",
+          "INTERNAL": "Interne"
+        },
+        "contentType": {
+          "TUTORIAL": "Didacticiel",
+          "FAQ": "FAQ",
+          "ARTICLE": "Article"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Échec du téléchargement de la bannière",
+          "bannerSuccess": "Téléchargement réussi de la bannière",
+          "attachmentFailed": "Échec du téléchargement de la pièce jointe",
+          "attachmentSuccess": "Téléchargement réussi de la pièce jointe"
+        },
+        "category": {
+          "created": "Catégorie créée",
+          "createFailed": "La catégorie n'a pas pu être créée",
+          "deleted": "Catégorie supprimée",
+          "deleteFailed": "La catégorie n'a pas pu être supprimée",
+          "updated": "Catégorie mise à jour",
+          "updateFailed": "La catégorie n'a pas pu être mise à jour",
+          "updating": "Mise à jour des catégories",
+          "creating": "Création de catégorie"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Article déjà ajouté",
+          "created": "Bannière créée",
+          "createFailed": "La bannière n'a pas pu être créée",
+          "deleted": "Bannière supprimée",
+          "deleteFailed": "La bannière n'a pas pu être supprimée"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Choisir le dossier",
+      "uploading": "Téléchargement...",
+      "maxSizeInfo": "Taille maximale : 4 Mo"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Éditeur riche",
+        "embededResource": "Intégrer la ressource"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Liste des articles",
+        "bannerList": "Pour ajouter des images de bannière à la page d'accueil, veuillez appuyer sur les icônes de la liste ci-dessous.",
+        "categoryList": "Classez les catégories en les faisant glisser et en les déposant."
+      },
+      "tabs": {
+        "articles": "Des articles",
+        "banners": "Bannières de la page d'accueil",
+        "categories": "Catégories"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Traîner",
+        "draggingFailed": "Traîner",
+        "dragging": "Traîner"
+      }
+    },
+    "buttons": {
+      "createArticle": "Créer un article",
+      "manage": "Gérer"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Recherche",
+      "searchCategory": "Rechercher dans les catégories"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Comment pouvons nous aider",
+    "searchCollection": "Recherche de collections"
+  },
+  "options": {
+    "title": "Titre",
+    "shortDescription": "Description",
+    "reviewers": "Réviseurs",
+    "totalViewing": "Visionnage total",
+    "createdAt": "Créé à",
+    "dueDate": "Date d'échéance",
+    "publishDate": "Date de publication"
+  },
+  "buttons": {
+    "seeAll": "Voir tout",
+    "seeMore": "Voir plus",
+    "back": "Dos",
+    "sort": "Trier",
+    "save": "Sauvegarder",
+    "update": "Mise à jour",
+    "forward": "Avant",
+    "cancel": "Annuler",
+    "preview": "Aperçu",
+    "edit": "Modifier",
+    "next": "Suivant",
+    "up": "En haut",
+    "down": "Vers le bas",
+    "delete": "Supprimer",
+    "create": "Créer",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "search": "Recherche",
+    "select": "Sélectionner",
+    "upload": "Télécharger"
+  },
+  "loaders": {
+    "categoryMenu": "Chargement des catégories"
+  }
+}

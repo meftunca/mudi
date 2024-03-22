@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Configurar",
+          "content": "Contente",
+          "attachments": "Anexos",
+          "readers": "leitores",
+          "banners": "Bandeiras"
+        }
+      },
+      "labels": {
+        "title": "Título",
+        "name": "Nome",
+        "description": "Descrição",
+        "publishDate": "Data de publicação",
+        "parentCategory": "Categoria Parental",
+        "category": "Categoria",
+        "expireDate": "Data de validade",
+        "tags": "Tag",
+        "country": "País",
+        "language": "Linguagem",
+        "selectLanguage": "Selecione um idioma",
+        "privacyType": "Tipo de privacidade",
+        "contentType": "Tipo de conteúdo",
+        "draftMode": "Modo rascunho",
+        "redirect": "URL de redirecionamento",
+        "selectImage": "Selecione a imagem"
+      },
+      "sectionTitles": {
+        "settings": "Configurações",
+        "dateChecks": "Verificações de data na publicação",
+        "bannerList": "Lista de Banners",
+        "sortBanner": "Classificar banner (em breve)",
+        "upload": "Carregar um novo recurso",
+        "createCategory": "Crie uma nova categoria",
+        "updateCategory": "Atualizar categoria"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Público",
+          "PRIVATE": "Privado",
+          "INTERNAL": "interno"
+        },
+        "contentType": {
+          "TUTORIAL": "Tutorial",
+          "FAQ": "Perguntas frequentes",
+          "ARTICLE": "Artigo"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Falha no upload do banner",
+          "bannerSuccess": "Sucesso no upload do banner",
+          "attachmentFailed": "Falha no upload do anexo",
+          "attachmentSuccess": "Sucesso no upload do anexo"
+        },
+        "category": {
+          "created": "Categoria criada",
+          "createFailed": "Não foi possível criar a categoria",
+          "deleted": "Categoria excluída",
+          "deleteFailed": "Não foi possível excluir a categoria",
+          "updated": "Categoria atualizada",
+          "updateFailed": "Não foi possível atualizar a categoria",
+          "updating": "Atualização de categoria",
+          "creating": "Criação de categoria"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Artigo já adicionado",
+          "created": "Banner criado",
+          "createFailed": "Não foi possível criar o banner",
+          "deleted": "Banner excluído",
+          "deleteFailed": "Não foi possível excluir o banner"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Selecione o arquivo",
+      "uploading": "Enviando...",
+      "maxSizeInfo": "Tamanho máximo: 4 MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Editor rico",
+        "embededResource": "Incorporar recurso"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Lista de artigos",
+        "bannerList": "Para adicionar imagens de banner à página inicial, pressione os ícones da lista abaixo.",
+        "categoryList": "Ordene as categorias arrastando e soltando-as."
+      },
+      "tabs": {
+        "articles": "Artigos",
+        "banners": "Banners da página inicial",
+        "categories": "Categorias"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Arrastar",
+        "draggingFailed": "Arrastar",
+        "dragging": "Arrastar"
+      }
+    },
+    "buttons": {
+      "createArticle": "Criar artigo",
+      "manage": "Gerenciar"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Procurar",
+      "searchCategory": "Pesquisar em categorias"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Como podemos ajudar",
+    "searchCollection": "Pesquisa de coleção"
+  },
+  "options": {
+    "title": "Título",
+    "shortDescription": "Descrição",
+    "reviewers": "Revisores",
+    "totalViewing": "Visualização total",
+    "createdAt": "Criado em",
+    "dueDate": "Data de vencimento",
+    "publishDate": "Data de publicação"
+  },
+  "buttons": {
+    "seeAll": "Ver tudo",
+    "seeMore": "Ver mais",
+    "back": "Voltar",
+    "sort": "Organizar",
+    "save": "Salvar",
+    "update": "Atualizar",
+    "forward": "Avançar",
+    "cancel": "Cancelar",
+    "preview": "vá para artigo",
+    "edit": "Editar",
+    "next": "Próximo",
+    "up": "Acima",
+    "down": "Abaixo",
+    "delete": "Excluir",
+    "create": "Criar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "search": "Procurar",
+    "select": "Selecione",
+    "upload": "Carregar"
+  },
+  "loaders": {
+    "categoryMenu": "Carregando categorias"
+  }
+}

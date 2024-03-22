@@ -1,0 +1,34 @@
+{
+  "tabs": {
+    "generalSurveys": "General Surveys",
+    "allSurveys": "All Surveys",
+    "all": "All",
+    "completed": "Completed",
+    "issued": "Issued"
+  },
+  "buttons": {
+    "create": "Create",
+    "createNewTemplate": "New Template"
+  },
+  "loader": {
+    "loading": "Loading..."
+  },
+  "table": {
+    "cells": {
+      "enable": "Enable",
+      "passive": "Passive"
+    }
+  },
+  "titles": {
+    "allTemplates": "All Templates"
+  },
+  "labels": {
+    "rowSize": "Row Size"
+  },
+  "dataGrid": {
+    "cell": {
+      "store": "Store",
+      "answer": "Answer"
+    }
+  }
+}

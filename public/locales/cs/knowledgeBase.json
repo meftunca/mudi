@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Založit",
+          "content": "Obsah",
+          "attachments": "Přílohy",
+          "readers": "čtenáři",
+          "banners": "Bannery"
+        }
+      },
+      "labels": {
+        "title": "Titul",
+        "name": "název",
+        "description": "Popis",
+        "publishDate": "Datum zveřejnění",
+        "parentCategory": "Rodičovská Kategorie",
+        "category": "Kategorie",
+        "expireDate": "Datum spotřeby",
+        "tags": "Tagy",
+        "country": "Země",
+        "language": "Jazyk",
+        "selectLanguage": "Vyberte jazyk",
+        "privacyType": "Typ soukromí",
+        "contentType": "Typ obsahu",
+        "draftMode": "Režim konceptu",
+        "redirect": "Adresa URL přesměrování",
+        "selectImage": "Vyberte Obrázek"
+      },
+      "sectionTitles": {
+        "settings": "Nastavení",
+        "dateChecks": "Kontrola data při publikování",
+        "bannerList": "Seznam bannerů",
+        "sortBanner": "Řadit banner (již brzy)",
+        "upload": "Nahrajte nový zdroj",
+        "createCategory": "Vytvořit novou kategorii",
+        "updateCategory": "Aktualizovat kategorii"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Veřejnost",
+          "PRIVATE": "Soukromé",
+          "INTERNAL": "Vnitřní"
+        },
+        "contentType": {
+          "TUTORIAL": "Tutorial",
+          "FAQ": "FAQ",
+          "ARTICLE": "Článek"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Nahrání banneru se nezdařilo",
+          "bannerSuccess": "Nahrání banneru bylo úspěšné",
+          "attachmentFailed": "Nahrání přílohy se nezdařilo",
+          "attachmentSuccess": "Nahrání přílohy bylo úspěšné"
+        },
+        "category": {
+          "created": "Kategorie vytvořena",
+          "createFailed": "Kategorii se nepodařilo vytvořit",
+          "deleted": "Kategorie byla smazána",
+          "deleteFailed": "Kategorii se nepodařilo smazat",
+          "updated": "Kategorie aktualizována",
+          "updateFailed": "Kategorii nelze aktualizovat",
+          "updating": "Aktualizace kategorie",
+          "creating": "Vytvoření kategorie"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Článek již přidán",
+          "created": "Banner vytvořen",
+          "createFailed": "Banner se nepodařilo vytvořit",
+          "deleted": "Banner smazán",
+          "deleteFailed": "Banner se nepodařilo smazat"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Zvolte soubor",
+      "uploading": "Nahrávání...",
+      "maxSizeInfo": "Maximální velikost: 4 MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Bohatý editor",
+        "embededResource": "Vložit zdroj"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Seznam článků",
+        "bannerList": "Chcete-li přidat obrázky bannerů na domovskou stránku, stiskněte ikony ze seznamu níže.",
+        "categoryList": "Uspořádejte kategorie přetažením."
+      },
+      "tabs": {
+        "articles": "články",
+        "banners": "Bannery domovské stránky",
+        "categories": "Kategorie"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Táhnout",
+        "draggingFailed": "Táhnout",
+        "dragging": "Táhnout"
+      }
+    },
+    "buttons": {
+      "createArticle": "Vytvořit článek",
+      "manage": "Spravovat"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Vyhledávání",
+      "searchCategory": "Hledat v kategoriích"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Jak můžeme pomoci",
+    "searchCollection": "Hledání sbírek"
+  },
+  "options": {
+    "title": "Titul",
+    "shortDescription": "Popis",
+    "reviewers": "Recenzenti",
+    "totalViewing": "Celková sledovanost",
+    "createdAt": "Vytvořeno v",
+    "dueDate": "Datum splatnosti",
+    "publishDate": "Datum zveřejnění"
+  },
+  "buttons": {
+    "seeAll": "Vidět vše",
+    "seeMore": "Vidět víc",
+    "back": "Zadní",
+    "sort": "Seřadit",
+    "save": "Uložit",
+    "update": "Aktualizace",
+    "forward": "Vpřed",
+    "cancel": "zrušení",
+    "preview": "Náhled",
+    "edit": "Upravit",
+    "next": "další",
+    "up": "Nahoru",
+    "down": "Dolů",
+    "delete": "Vymazat",
+    "create": "Vytvořit",
+    "add": "Přidat",
+    "remove": "Odstranit",
+    "search": "Vyhledávání",
+    "select": "Vybrat",
+    "upload": "nahrát"
+  },
+  "loaders": {
+    "categoryMenu": "Načítání kategorií"
+  }
+}

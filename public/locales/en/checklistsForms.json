@@ -1,0 +1,88 @@
+{
+  "tabs": {
+    "my-stores": "My Stores",
+    "my-checklists": "My Checklists",
+    "all-checklists": "All Checklists",
+    "all": "All",
+    "completed": "Completed",
+    "issued": "Issued",
+    "triggered": "Triggered",
+    "overtime": "Overtime",
+    "fail": "Failed",
+    "overview": "Overview"
+  },
+  "stats": {
+    "COMPLETED": "COMPLETED",
+    "ISSUED": "ISSUED",
+    "OVERTIME": "OVERTIME",
+    "TRIGGERED": "TRIGGERED",
+    "FAIL": "FAIL",
+    "ARCHIVED": "ARCHIVED"
+  },
+  "buttons": {
+    "add-checklist": "Add Checklist",
+    "create": "Create",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "clear": "Clear",
+    "remove": "Remove",
+    "clear-all": "Clear All",
+    "filters": "Filters",
+    "edit": "Edit",
+    "add": "Add",
+    "take-ownership": "Take Ownership",
+    "previous": "Previous",
+    "next": "Next",
+    "submit-checklist": "Complete Checklist",
+    "only-answered": "Only Answered"
+  },
+  "dialogs": {
+    "add-checklist-title": "Create New Checklist",
+    "add-checklist-description": "Select a template and performers to create a new checklist.",
+    "take-ownership-1": "This checklist is not assigned to anyone!",
+    "take-ownership-2": "Take ownership of this checklist to start working on it",
+    "take-ownership-3": "This is to prevent simultaneous entries",
+    "remove-user-title": "Remove User",
+    "remove-user-description": "Are you sure you want to remove this user from the checklist?",
+    "add-manager-title": "Add Store Manager",
+    "add-manager-description": "Select managers to add to the checklist",
+    "add-participant-title": "Add Participant",
+    "add-participant-description": "Select participants to add to the checklist"
+  },
+  "tooltips": {
+    "remove": "Remove",
+    "add-manager": "Add Store Manager",
+    "add-participant": "Add Participant",
+    "copy-contact": "Copy Contact Info",
+    "contact-copied": "Copied!"
+  },
+  "labels": {
+    "select-checklist-template": "Select Checklist Template",
+    "select-performers": "Select Performers",
+    "select-manager": "Select Manager",
+    "select-participant": "Select Participant",
+    "select-area": "Select Area",
+    "select-store": "Select Store",
+    "results-found": "Results Found",
+    "store": "Store",
+    "area": "Area",
+    "template": "Template",
+    "created": "Created",
+    "status": "Status",
+    "completed": "Completed",
+    "checklist-score": "Checklist Score",
+    "section-score": "Section Score",
+    "required-questions": "Required Questions",
+    "required-star": "* Required",
+    "not-answered": "Not Answered"
+  },
+  "titles": {
+    "overview": "Overview",
+    "created": "Created",
+    "completed": "Completed",
+    "store-card": "Store",
+    "participants": "Participants",
+    "relevant-managers": "Store Managers"
+  }
+}

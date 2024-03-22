@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Aufstellen",
+          "content": "Inhalt",
+          "attachments": "Anhänge",
+          "readers": "Leser",
+          "banners": "Banner"
+        }
+      },
+      "labels": {
+        "title": "Titel",
+        "name": "Name",
+        "description": "Beschreibung",
+        "publishDate": "Datum der Veröffentlichung",
+        "parentCategory": "Eltern-Kategorie",
+        "category": "Kategorie",
+        "expireDate": "Ablaufdatum",
+        "tags": "Stichworte",
+        "country": "Land",
+        "language": "Sprache",
+        "selectLanguage": "Bitte wähle eine Sprache",
+        "privacyType": "Datenschutztyp",
+        "contentType": "Inhaltstyp",
+        "draftMode": "Entwurfsmodus",
+        "redirect": "Weiterleitungs-URL",
+        "selectImage": "Bild auswählen"
+      },
+      "sectionTitles": {
+        "settings": "Einstellungen",
+        "dateChecks": "Datumskontrollen bei der Veröffentlichung",
+        "bannerList": "Bannerliste",
+        "sortBanner": "Sortierbanner (in Kürze erhältlich)",
+        "upload": "Laden Sie eine neue Ressource hoch",
+        "createCategory": "Erstellen Sie eine neue Kategorie",
+        "updateCategory": "Kategorie aktualisieren"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Öffentlich",
+          "PRIVATE": "Privat",
+          "INTERNAL": "Intern"
+        },
+        "contentType": {
+          "TUTORIAL": "Lernprogramm",
+          "FAQ": "FAQ",
+          "ARTICLE": "Artikel"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Das Hochladen des Banners ist fehlgeschlagen",
+          "bannerSuccess": "Banner-Upload erfolgreich",
+          "attachmentFailed": "Das Hochladen des Anhangs ist fehlgeschlagen",
+          "attachmentSuccess": "Erfolgreicher Upload des Anhangs"
+        },
+        "category": {
+          "created": "Kategorie erstellt",
+          "createFailed": "Kategorie konnte nicht erstellt werden",
+          "deleted": "Kategorie gelöscht",
+          "deleteFailed": "Kategorie konnte nicht gelöscht werden",
+          "updated": "Kategorie aktualisiert",
+          "updateFailed": "Kategorie konnte nicht aktualisiert werden",
+          "updating": "Aktualisierung der Kategorie",
+          "creating": "Kategorieerstellung"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Artikel bereits hinzugefügt",
+          "created": "Banner erstellt",
+          "createFailed": "Banner konnte nicht erstellt werden",
+          "deleted": "Banner gelöscht",
+          "deleteFailed": "Banner konnte nicht gelöscht werden"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Datei aussuchen",
+      "uploading": "Hochladen...",
+      "maxSizeInfo": "Maximale Größe: 4 MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Rich-Editor",
+        "embededResource": "Ressource einbetten"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Artikelliste",
+        "bannerList": "Um Bannerbilder zur Startseite hinzuzufügen, klicken Sie bitte auf die Symbole in der Liste unten.",
+        "categoryList": "Ordnen Sie die Kategorien, indem Sie sie per Drag & Drop verschieben."
+      },
+      "tabs": {
+        "articles": "Artikel",
+        "banners": "Homepage-Banner",
+        "categories": "Kategorien"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Ziehen",
+        "draggingFailed": "Ziehen",
+        "dragging": "Ziehen"
+      }
+    },
+    "buttons": {
+      "createArticle": "Artikel erstellen",
+      "manage": "Verwalten"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Suchen",
+      "searchCategory": "Suchen Sie in Kategorien"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Wie können wir helfen",
+    "searchCollection": "Sammlungssuche"
+  },
+  "options": {
+    "title": "Titel",
+    "shortDescription": "Beschreibung",
+    "reviewers": "Rezensenten",
+    "totalViewing": "Gesamtansicht",
+    "createdAt": "Hergestellt in",
+    "dueDate": "Fälligkeitsdatum",
+    "publishDate": "Datum der Veröffentlichung"
+  },
+  "buttons": {
+    "seeAll": "Alles sehen",
+    "seeMore": "Mehr sehen",
+    "back": "Zurück",
+    "sort": "Sortieren",
+    "save": "Speichern",
+    "update": "Aktualisieren",
+    "forward": "Nach vorne",
+    "cancel": "Stornieren",
+    "preview": "Vorschau",
+    "edit": "Bearbeiten",
+    "next": "Nächste",
+    "up": "Hoch",
+    "down": "Runter",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "search": "Suchen",
+    "select": "Wählen",
+    "upload": "Hochladen"
+  },
+  "loaders": {
+    "categoryMenu": "Kategorien werden geladen"
+  }
+}

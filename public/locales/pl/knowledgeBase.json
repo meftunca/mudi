@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Organizować coś",
+          "content": "Treść",
+          "attachments": "Załączniki",
+          "readers": "czytelnicy",
+          "banners": "Banery"
+        }
+      },
+      "labels": {
+        "title": "Tytuł",
+        "name": "Nazwa",
+        "description": "Opis",
+        "publishDate": "Data publikacji",
+        "parentCategory": "Kategoria nadrzędna",
+        "category": "Kategoria",
+        "expireDate": "Data ważności",
+        "tags": "Tagi",
+        "country": "Kraj",
+        "language": "Język",
+        "selectLanguage": "Proszę wybierz język",
+        "privacyType": "Typ prywatności",
+        "contentType": "Typ zawartości",
+        "draftMode": "Tryb roboczy",
+        "redirect": "Adres URL przekierowania",
+        "selectImage": "Wybierz obraz"
+      },
+      "sectionTitles": {
+        "settings": "Ustawienia",
+        "dateChecks": "Kontrola daty publikacji",
+        "bannerList": "Lista banerów",
+        "sortBanner": "Sortuj baner (wkrótce)",
+        "upload": "Prześlij nowy zasób",
+        "createCategory": "Utwórz nową kategorię",
+        "updateCategory": "Zaktualizuj kategorię"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Publiczny",
+          "PRIVATE": "Prywatny",
+          "INTERNAL": "Wewnętrzny"
+        },
+        "contentType": {
+          "TUTORIAL": "Instruktaż",
+          "FAQ": "Często zadawane pytania",
+          "ARTICLE": "Artykuł"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Przesyłanie banera nie powiodło się",
+          "bannerSuccess": "Przesyłanie banera powiodło się",
+          "attachmentFailed": "Przesyłanie załącznika nie powiodło się",
+          "attachmentSuccess": "Przesyłanie załącznika powiodło się"
+        },
+        "category": {
+          "created": "Kategoria utworzona",
+          "createFailed": "Nie można utworzyć kategorii",
+          "deleted": "Kategoria usunięta",
+          "deleteFailed": "Nie można usunąć kategorii",
+          "updated": "Kategoria zaktualizowana",
+          "updateFailed": "Nie można zaktualizować kategorii",
+          "updating": "Aktualizacja kategorii",
+          "creating": "Tworzenie kategorii"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Artykuł już dodany",
+          "created": "Utworzono baner",
+          "createFailed": "Nie można utworzyć banera",
+          "deleted": "Baner usunięty",
+          "deleteFailed": "Nie można usunąć banera"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Wybierz plik",
+      "uploading": "Przesyłanie...",
+      "maxSizeInfo": "Maksymalny rozmiar: 4 MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Bogaty redaktor",
+        "embededResource": "Osadź zasób"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Lista artykułów",
+        "bannerList": "Aby dodać obrazy banerów do Strony Głównej należy nacisnąć ikony z poniższej listy.",
+        "categoryList": "Uporządkuj kategorie, przeciągając je i upuszczając."
+      },
+      "tabs": {
+        "articles": "Artykuły",
+        "banners": "Banery strony głównej",
+        "categories": "Kategorie"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Ciągnąć",
+        "draggingFailed": "Ciągnąć",
+        "dragging": "Ciągnąć"
+      }
+    },
+    "buttons": {
+      "createArticle": "Utwórz artykuł",
+      "manage": "Zarządzać"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Szukaj",
+      "searchCategory": "Szukaj w kategoriach"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Jak możemy pomóc",
+    "searchCollection": "Wyszukiwanie kolekcji"
+  },
+  "options": {
+    "title": "Tytuł",
+    "shortDescription": "Opis",
+    "reviewers": "Recenzenci",
+    "totalViewing": "Całkowita oglądalność",
+    "createdAt": "Utworzono o godz",
+    "dueDate": "Termin",
+    "publishDate": "Data publikacji"
+  },
+  "buttons": {
+    "seeAll": "Widzieć wszystko",
+    "seeMore": "Zobacz więcej",
+    "back": "Z powrotem",
+    "sort": "Sortować",
+    "save": "Ratować",
+    "update": "Aktualizacja",
+    "forward": "Do przodu",
+    "cancel": "Anulować",
+    "preview": "przejdź do artykułu",
+    "edit": "Edytować",
+    "next": "Następny",
+    "up": "W górę",
+    "down": "W dół",
+    "delete": "Usuwać",
+    "create": "Tworzyć",
+    "add": "Dodać",
+    "remove": "Usunąć",
+    "search": "Szukaj",
+    "select": "Wybierać",
+    "upload": "Wgrywać"
+  },
+  "loaders": {
+    "categoryMenu": "Ładowanie kategorii"
+  }
+}

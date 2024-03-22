@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Kurmak",
+          "content": "İçerik",
+          "attachments": "Ekler",
+          "readers": "okuyucular",
+          "banners": "Afişler"
+        }
+      },
+      "labels": {
+        "title": "Başlık",
+        "name": "İsim",
+        "description": "Tanım",
+        "publishDate": "Yayın tarihi",
+        "parentCategory": "aile kategorisi",
+        "category": "Kategori",
+        "expireDate": "Son kullanma tarihi",
+        "tags": "Etiketler",
+        "country": "Ülke",
+        "language": "Dil",
+        "selectLanguage": "Lütfen bir dil seçin",
+        "privacyType": "Gizlilik Türü",
+        "contentType": "İçerik türü",
+        "draftMode": "Taslak Modu",
+        "redirect": "yönlendirme bağlantısı",
+        "selectImage": "Fotoğraf seç"
+      },
+      "sectionTitles": {
+        "settings": "Ayarlar",
+        "dateChecks": "Yayınlamada tarih kontrolleri",
+        "bannerList": "Banner Listesi",
+        "sortBanner": "Banner'ı Sırala (Çok Yakında)",
+        "upload": "Yeni Bir Kaynak Yükle",
+        "createCategory": "Yeni Bir Kategori Oluştur",
+        "updateCategory": "Kategoriyi Güncelle"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Halk",
+          "PRIVATE": "Özel",
+          "INTERNAL": "Dahili"
+        },
+        "contentType": {
+          "TUTORIAL": "öğretici",
+          "FAQ": "SSS",
+          "ARTICLE": "Madde"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Banner yükleme başarısız oldu",
+          "bannerSuccess": "Banner yükleme başarısı",
+          "attachmentFailed": "Ek yükleme başarısız oldu",
+          "attachmentSuccess": "Ek yükleme başarısı"
+        },
+        "category": {
+          "created": "Kategori oluşturuldu",
+          "createFailed": "Kategori oluşturulamadı",
+          "deleted": "Kategori silindi",
+          "deleteFailed": "Kategori silinemedi",
+          "updated": "Kategori güncellendi",
+          "updateFailed": "Kategori güncellenemedi",
+          "updating": "Kategori güncelleme",
+          "creating": "Kategori oluşturma"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Makale zaten eklendi",
+          "created": "Banner oluşturuldu",
+          "createFailed": "Banner oluşturulamadı",
+          "deleted": "Banner silindi",
+          "deleteFailed": "Banner silinemedi"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Dosya Seç",
+      "uploading": "Yükleniyor...",
+      "maxSizeInfo": "Maksimum Boyut: 4MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Zengin Düzenleyici",
+        "embededResource": "Kaynağı Yerleştir"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Makale Listesi",
+        "bannerList": "Ana Sayfaya banner görselleri eklemek için lütfen aşağıdaki listeden simgelere tıklayınız.",
+        "categoryList": "Kategorileri sürükleyip bırakarak sıralayın."
+      },
+      "tabs": {
+        "articles": "Nesne",
+        "banners": "Ana Sayfa Banner'ları",
+        "categories": "Kategoriler"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Sürüklemek",
+        "draggingFailed": "Sürüklemek",
+        "dragging": "Sürüklemek"
+      }
+    },
+    "buttons": {
+      "createArticle": "Makale Oluştur",
+      "manage": "Üstesinden gelmek"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Aramak",
+      "searchCategory": "Kategorilerde Ara"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "Nasıl yardımcı olabiliriz",
+    "searchCollection": "Koleksiyon Arama"
+  },
+  "options": {
+    "title": "Başlık",
+    "shortDescription": "Tanım",
+    "reviewers": "İnceleyenler",
+    "totalViewing": "Toplam Görüntüleme",
+    "createdAt": "Oluşturulma Tarihi",
+    "dueDate": "Bitiş tarihi",
+    "publishDate": "Yayın tarihi"
+  },
+  "buttons": {
+    "seeAll": "Tümü",
+    "seeMore": "Daha fazla",
+    "back": "Geri",
+    "sort": "Düzenlemek",
+    "save": "Kaydetmek",
+    "update": "Güncelleme",
+    "forward": "İleri",
+    "cancel": "İptal etmek",
+    "preview": "Makaleye git",
+    "edit": "Düzenlemek",
+    "next": "Sonraki",
+    "up": "Yukarı",
+    "down": "Aşağı",
+    "delete": "Silmek",
+    "create": "Yaratmak",
+    "add": "Eklemek",
+    "remove": "Kaldırmak",
+    "search": "Aramak",
+    "select": "Seçme",
+    "upload": "Yüklemek"
+  },
+  "loaders": {
+    "categoryMenu": "Kategoriler Yükleniyor"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "admin": {
+    "forms": {
+      "steps": {
+        "createArticle": {
+          "setup": "Setup",
+          "content": "Content",
+          "visibilities":"Visibilities",
+          "attachments": "Attachments",
+          "readers": "readers",
+          "banners": "Banners"
+        }
+      },
+      "labels": {
+        "title": "Title",
+        "name": "Name",
+        "description": "Description",
+        "publishDate": "Publish Date",
+        "parentCategory": "Parent Category",
+        "category": "Category",
+        "expireDate": "Expire Date",
+        "tags": "Tags",
+        "country": "Country",
+        "language": "Language",
+        "selectLanguage": "Please select a language",
+        "privacyType": "Privacy Type",
+        "contentType": "Content Type",
+        "draftMode": "Draft Mode",
+        "redirect": "Redirect URL",
+        "selectImage": "Select Image"
+      },
+      "sectionTitles": {
+        "settings": "Settings",
+        "dateChecks": "Date checks on publishing",
+        "bannerList": "Banner List",
+        "sortBanner": "Sort Banner (Coming Soon)",
+        "upload": "Upload A New Resource",
+        "createCategory": "Create A New Category",
+        "updateCategory": "Update Category"
+      },
+      "enums": {
+        "privacyType": {
+          "PUBLIC": "Public",
+          "PRIVATE": "Private",
+          "INTERNAL": "Internal"
+        },
+        "contentType": {
+          "TUTORIAL": "Tutorial",
+          "FAQ": "FAQ",
+          "ARTICLE": "Article"
+        }
+      },
+      "messages": {
+        "uploads": {
+          "bannerFailed": "Banner upload failed",
+          "bannerSuccess": "Banner upload success",
+          "attachmentFailed": "Attachment upload failed",
+          "attachmentSuccess": "Attachment upload success"
+        },
+        "category": {
+          "created": "Category created",
+          "createFailed": "Category could not be created",
+          "deleted": "Category deleted",
+          "deleteFailed": "Category could not be deleted",
+          "updated": "Category updated",
+          "updateFailed": "Category could not be updated",
+          "updating": "Category updating",
+          "creating": "Category creating"
+        },
+        "banner": {
+          "artilcleAlreadyAdded": "Article already added",
+          "created": "Banner created",
+          "createFailed": "Banner could not be created",
+          "deleted": "Banner deleted",
+          "deleteFailed": "Banner could not be deleted"
+        }
+      }
+    },
+    "dropzone": {
+      "selectFile": "Select File",
+      "uploading": "Uploading...",
+      "maxSizeInfo": "Max Size: 4MB"
+    },
+    "tabs": {
+      "articles": {
+        "richEditor": "Rich Editor",
+        "embededResource": "Embed Resource"
+      }
+    },
+    "titles": {
+      "cards": {
+        "articleList": "Article List",
+        "bannerList": "To add banner images to the Home Page, please press the + icons from the list below.",
+        "categoryList": "Order the categories by dragging and dropping them."
+      },
+      "tabs": {
+        "articles": "Articles",
+        "banners": "Home Page Banners",
+        "categories": "Categories"
+      }
+    },
+    "messages": {
+      "category": {
+        "draggingAccepted": "Drag&Drop proccess completed",
+        "draggingFailed": "Drag&Drop proccess failed",
+        "dragging": "Drag&Drop proccessing"
+      }
+    },
+    "buttons": {
+      "createArticle": "Create Article",
+      "manage": "Manage"
+    }
+  },
+  "components": {
+    "inputs": {
+      "search": "Search",
+      "searchCategory": "Search in Categories"
+    }
+  },
+  "placeholders": {
+    "searchHomePage": "How Can We Help",
+    "searchCollection": "Collection Search"
+  },
+  "options": {
+    "title": "Title",
+    "shortDescription": "Description",
+    "reviewers": "Reviewers",
+    "totalViewing": "Total Viewing",
+    "createdAt": "Created At",
+    "dueDate": "Due Date",
+    "publishDate": "Publish Date"
+  },
+  "buttons": {
+    "seeAll": "See All",
+    "seeMore": "See More",
+    "back": "Back",
+    "sort": "Sort",
+    "save": "Save",
+    "update": "Update",
+    "forward": "Forward",
+    "cancel": "Cancel",
+    "preview": "Preview",
+    "edit": "Edit",
+    "next": "Next",
+    "up": "Up",
+    "down": "Down",
+    "delete": "Delete",
+    "create": "Create",
+    "add": "Add",
+    "remove": "Remove",
+    "search": "Search",
+    "select": "Select",
+    "upload": "Upload"
+  },
+  "loaders": {
+    "categoryMenu": "Loading Categories"
+  }
+}
