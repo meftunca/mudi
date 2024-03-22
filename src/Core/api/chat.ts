@@ -97,30 +97,22 @@ export function useGetConversation(conversationId: string) {
 // ----------------------------------------------------------------------
 const AIDefaultData = {
   parameters: {
-    return_full_text: true,
+    // return_full_text: true,
     max_new_tokens: 6000,
-    min_length: 100,
+    min_length: 10,
     max_length: 5000,
-    top_k: 1000,
-    top_p: 0.99,
-    temperature: 0.01,
-    stop: ["\n"],
-    presence_penalty: 0.0,
-    frequency_penalty: 0.0,
-    nucleus_sampling: false,
-    best_of: 1,
-    logprobs: null,
-    eos_token: null,
-    pad_token: null,
-    unk_token: null,
+    temperature: 0.5,
+    top_k: 50,
+    top_p: .9991,
+    frequency_penalty: 0,
   },
-  stream: false,
-  options: {
-    dont_load_model: false,
-    signal: {},
-    use_cache: true,
-    wait_for_model: true,
-  },
+  // stream: false,
+  // options: {
+  //   dont_load_model: false,
+  //   signal: {},
+  //   use_cache: true,
+  //   wait_for_model: true,
+  // },
 };
 export async function sendMessage(
   conversationId: string,
